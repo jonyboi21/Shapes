@@ -20,14 +20,22 @@ public void setRadius(double v){
 
 }
 
-public void calculateArea(){
+
+
+    public void calculateArea(){
         double pi = 3.14;
         double Area = (radius * radius) * pi;
     System.out.println("This area is " + Area);
+
 }
 
 
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
+    }
 
 
 
